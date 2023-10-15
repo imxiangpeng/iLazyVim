@@ -207,3 +207,14 @@ if vim.fn.has("nvim-0.11") == 0 then
     return vim.snippet.active({ direction = -1 }) and "<cmd>lua vim.snippet.jump(-1)<cr>" or "<S-Tab>"
   end, { expr = true, desc = "Jump Previous" })
 end
+
+-- mxp, expend editor command in insert mode
+map("i", "<C-n>", "<Up>")
+map("i", "<C-p>", "<Down>")
+map("i", "<C-b>", "<Left>")
+map("i", "<C-f>", "<Right>")
+map("i", "<C-a>", "<Home>")
+map("i", "<C-e>", "<End>")
+map("i", "<M-f>", "<C-o>e<Right>")
+map("i", "<M-b>", "<C-Left>")
+>>>>>>> 14d29485 (using emacs keybinds in insert mode)
