@@ -168,3 +168,14 @@ map("n", "<leader><tab><tab>", "<cmd>tabnew<cr>", { desc = "New Tab" })
 map("n", "<leader><tab>]", "<cmd>tabnext<cr>", { desc = "Next Tab" })
 map("n", "<leader><tab>d", "<cmd>tabclose<cr>", { desc = "Close Tab" })
 map("n", "<leader><tab>[", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
+
+
+-- mxp, expend editor command in insert mode
+map("i", "<C-n>", "<Up>")
+map("i", "<C-p>", "<Down>")
+map("i", "<C-b>", "<Left>")
+map("i", "<C-f>", "<Right>")
+map("i", "<C-a>", "<Home>")
+map("i", "<C-e>", "<End>")
+map("i", "<M-f>", "<C-o>e<Right>")
+map("i", "<M-b>", "<C-Left>")
