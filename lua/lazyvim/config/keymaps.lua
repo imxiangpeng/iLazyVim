@@ -172,8 +172,8 @@ map("n", "<leader><tab>[", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
 
 
 -- mxp, expend editor command in insert mode
-map("i", "<C-n>", "<Up>")
-map("i", "<C-p>", "<Down>")
+map("i", "<C-p>", "<Up>")
+map("i", "<C-n>", "<Down>")
 map("i", "<C-b>", "<Left>")
 map("i", "<C-f>", "<Right>")
 map("i", "<C-a>", "<Home>")
