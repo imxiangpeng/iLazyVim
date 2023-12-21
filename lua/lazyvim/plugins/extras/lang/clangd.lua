@@ -84,6 +84,7 @@ return {
             "--completion-style=detailed",
             "--function-arg-placeholders",
             "--fallback-style=llvm",
+            "-j=1",
           },
           init_options = {
             usePlaceholders = true,
