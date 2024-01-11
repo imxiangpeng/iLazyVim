@@ -179,6 +179,6 @@ map("i", "<C-f>", "<Right>")
 map("i", "<C-a>", "<Home>")
 map("i", "<C-e>", "<End>")
 -- c-y paste
-map("i", "<C-y>", "<esc>pi")
+map("i", "<C-y>", "<esc>pa")
 map("i", "<M-f>", "<C-o>e<Right>")
 map("i", "<M-b>", "<C-Left>")
